@@ -24,24 +24,37 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-  <style>
-    .direita{
-        display: flex;
-        justify-content: center;
-        transition: 0.3s ease;
-    }
-    .subir{
-       
-        display: contents;
-        justify-content: center;
-        transition: 0.3s ease;
-        
-    }
-  </style>
+    <style>
+        .direita {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s ease;
+        }
+    
+        .subir {
+            display: inline-block;
+            transition: 0.3s ease;
+            margin-right: 10px; /* Adicionado para separar os ícones */
+        }
+    
+        .sidenav-content {
+            text-align: center;
+        }
+        .miguel-icons {
+            margin-top: 40px; /* Adicionado para criar espaço entre o nome e os ícones */
+        }
+        .pega{
+            font-size: 22px;
+        }
+    </style>
+
 </head>
 <body data-spy="scroll" data-target="#navbar" class="static-layout">
 	<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
@@ -73,42 +86,60 @@
 	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
 	
 	<div class="sidenav-content">
-		<p>
+        <p>
             <center>
-           <a class="mb-4">Sobre cada criador!</a>
+                <a class="font-weight-bolder mb-0">Sobre cada criador!</a>
             </center>
             <br></br>
-	<p> 
-          
-                <h8>Douglas Rodrigues</h8>
-                <div>
-
-            <a class="nav-link" href="https://www.linkedin.com/in/douglas-rodrigues-05071022a/">
-                <i class="fab fa-linkedin direita"></i></a>
-           
-            <a class="nav-link " href="https://www.instagram.com/dudikkjkk/">
-                <i class="fab fa-instagram subir"></i></a>
-                </div>
-
-                <h8>Miguel Gorski</h8>
-
-                <div>
-            <a class="nav-link" href="https://www.linkedin.com/in/miguel-gorski-889599270/">
-                <i class="fab fa-linkedin"></i></a>
-
-            <a class="nav-link" href="https://www.instagram.com/gorski_7/">
-                <i class="fab fa-instagram"></i></a>
-                </div>
-
-                <h8>Dandara Schuring</h8>
-
-                <div>
-            <a class="nav-link" href="https://www.linkedin.com/in/dandara-schurig-3b70bb229/">
-                        <i class="fab fa-linkedin"> </i></a>
-
-            <a class="nav-link" href="https://www.instagram.com/daraschurig/">
-                        <i class="fab fa-instagram"></i></a>
-                </div>
+        </p> 
+    
+        <h6 class="miguel-icons">Douglas Rodrigues</h6>
+        <div class="direita">
+            <div class="subir ">
+                <a class="nav-link" href="https://www.linkedin.com/in/douglas-rodrigues-05071022a/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                
+            </div>
+            
+            <div class="subir ">
+                <a class="nav-link" href="https://www.instagram.com/dudikkjkk/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        
+        <h6 class="miguel-icons">Miguel Gorski</h6>
+        <div class="direita">
+            <div class="subir">
+                <a class="nav-link" href="https://www.linkedin.com/in/miguel-gorski-889599270/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="subir">
+                <a class="nav-link" href="https://www.instagram.com/gorski_7/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    
+        <h6 class="miguel-icons">Dandara Schuring</h6>
+        <div class="direita">
+            <div class="subir">
+                <a class="nav-link" href="https://www.linkedin.com/in/dandara-schurig-3b70bb229/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="subir">
+                <a class="nav-link" href="https://www.instagram.com/daraschurig/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+        
                    
 
 	</div>
@@ -221,7 +252,7 @@
                 <div class="testi-content testi-carousel owl-carousel">
                     <div class="testi-item text-center">
                         <i class="testi-icon fa fa-3x fa-quote-left"></i>
-                        <h4 class="testi-text"><b>"Ja tenho diversos projetos em python, javascript, html."</b> <br> </h4>
+                        <h4 class="testi-text">"Tenho diversos projetos em python, javascript, html." <br> </h4>
                         <div class="testi-meta-inner d-flex justify-content-center align-items-center">
                             <div class="testi-img mr-2">
                                 <img src="img/unnamed.jpg" alt="">
@@ -248,7 +279,7 @@
                     </div>
                      <div class="testi-item text-center">
                         <i class="testi-icon fa fa-3x fa-quote-left"></i>
-                        <h4 class="testi-text">Estudante de programacao com experiencia em Python, Html e Css.</h4>
+                        <h4 class="testi-text">Estudante de programação com experiência em Python, Html e Css.</h4>
                         <div class="testi-meta-inner d-flex justify-content-center align-items-center">
                             <div class="testi-img mr-2">
                                 <img src="./img/WhatsApp Image 2023-05-31 at 16.43.21.jpeg" alt="">
@@ -280,10 +311,10 @@
                 <div class="col-md-12 portfolio-holder mt-3">
                     <!-- Btn Filter -->
                     <div class="filter-button-group btn-filter d-flex justify-content-center">
-                        <a tabindex="0" class="is-checked" data-filter="*">inicio</a>
-                        <a tabindex="0" data-filter=".minimalism">personagem</a>
-                        <a tabindex="0" data-filter=".vintage">labirinto</a>
-                        <a tabindex="0" data-filter=".creative">fases</a>
+                        <a tabindex="0" class="is-checked" data-filter="*">Inicio</a>
+                        <a tabindex="0" data-filter=".minimalism">Personagem</a>
+                        <a tabindex="0" data-filter=".vintage">Labirinto</a>
+                        <a tabindex="0" data-filter=".creative">Fases</a>
                     </div>
                     <!-- End of Btn Filter -->
                     <!-- Portfolio Content -->
@@ -293,17 +324,17 @@
                         <!-- Portfolio Item -->
                         <div class="grid-item minimalism" data-aos="fade-up">
                             <div class="grid-item-wrapper">
-                                <img src="../roxy/img/WhatsApp Image 2023-06-14 at 13.54.59.jpeg" alt="portfolio-img" class="portfolio-item">
+                                <img src="../roxy/img/WhatsApp_Image_2023-05-29_at_14.51.01-removebg-preview.png" alt="portfolio-img" class="portfolio-item">
                                 <div class="grid-info">
                                     <div class="grid-link d-flex justify-content-center">
 
                                         </a>
-                                        <a class="ext-link" href="../roxy/img/WhatsApp Image 2023-06-14 at 13.54.59.jpeg" target="_blank">
+                                        <a class="ext-link" href="../roxy/img/WhatsApp_Image_2023-05-29_at_14.51.01-removebg-preview.png" target="_blank">
                                             <span class="lnr lnr-move"></span>
                                         </a>
                                     </div>
                                     <div class="grid-title">
-                                        <h4>Camera</h4>
+                                        <h4>Ethan</h4>
                                     </div>
                                 </div>
 
@@ -463,7 +494,22 @@
 	<script src="vendor/lightcase/lightcase.js"></script>
 	<script src="vendor/waypoints/waypoint.min.js"></script>
 	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	 
+     <script src="vendor/jquery/jquery.min.js"></script>
+     <script src="vendor/bootstrap/bootstrap.min.js"></script>
+     <script src="vendor/select2/select2.min.js"></script>
+     <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+     <script src="vendor/countdowntime/moment.min.js"></script>
+     <script src="vendor/countdowntime/moment-timezone.min.js"></script>
+     <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+     <script src="vendor/countdowntime/countdowntime.js"></script>
+     <script src="vendor/lightcase/lightcase.js"></script>
+     <script src="vendor/sweetalert/sweetalert.min.js"></script>
+     <script src="js/theme.js"></script>
+     <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script> 
 	<!-- Main JS -->
 	<script src="js/app.min.js "></script>
 	<script src="//localhost:35729/livereload.js"></script>
