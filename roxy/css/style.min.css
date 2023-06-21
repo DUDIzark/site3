@@ -117,11 +117,11 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #0606fc;
+    background: #0000FF;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #0d13c3);
+    background: -webkit-linear-gradient(to right, #0000FF, #0d13c3);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #0d13c3);
+    background: linear-gradient(to right, #0000FF, #0d13c3);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .jumbotron h1 {
     line-height: .9;
@@ -445,7 +445,7 @@ section {
     height: 100%;
     outline: none;
     border-radius: 50%;
-    background-color: rgba(255, 0, 204, 0.3);
+    background-color: rgba(92, 91, 92, 0.3);
     text-indent: -999em;
     cursor: pointer;
     position: absolute;
